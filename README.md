@@ -1,6 +1,7 @@
 ## PRODUCT CARD COMPONENT
 
-Import to html: `<script src='./product_card_component.js'></script>`
+### Import to html:
+    `<script src='./product_card_component.js'></script>`
 
 ### HTML Element Tag: 
     `<product-card></product-card>`
@@ -19,4 +20,18 @@ Import to html: `<script src='./product_card_component.js'></script>`
 
 ### Event Listener:
     listen for "product-card-clicked" to respond to button on click.
+### Example:
 
+    `<body>
+    
+        <product-card
+            img='./img.jpg'
+            main='Product Name'
+            sub-one='$12.00'
+            button-color='orange'
+            button-text-color='black'
+            id='_12234' >
+        </product-card>
+        
+        <script src='./product_card_component.js'></script>
+     </body>`
