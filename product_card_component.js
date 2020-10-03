@@ -21,8 +21,8 @@ class ProductCardComponent extends HTMLElement{
             button{
                 min-width: 7rem;
                 height: 1.8rem;
-                display: none;
-                transition: 200ms;
+                opacity: 0;
+                transition: 100ms ease 0s;
                 border-radius: .5rem;
                 border: none;
                 background-color: ${this.buttonColor} ;
@@ -106,7 +106,8 @@ class ProductCardComponent extends HTMLElement{
                 height: 50%;
             }
             .card-cont:hover button{
-                display: block;
+                opacity: 1;
+                transition: 500ms ease-in 0s;
             }
             button:active{
                 transform: scale(1.1,1.1);
