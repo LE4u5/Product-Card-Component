@@ -1,10 +1,13 @@
 ## PRODUCT CARD COMPONENT
 
 ### Import to html:
-    `<script src='./product_card_component.js'></script>`
-
-### HTML Element Tag: 
-    `<product-card></product-card>`
+```html
+    <script src='./product_card_component.js'></script>
+```
+### HTML Element Tag:
+```html
+   <product-card></product-card>
+```
 
 ### Inner HTML: 
     Inner html is displayed as button text.
