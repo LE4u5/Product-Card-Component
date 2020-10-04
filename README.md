@@ -30,7 +30,7 @@
             sub-one='$12.00'
             button-color='orange'
             button-text-color='black'
-            id='_12234' >
+            id='_12234' > OK
         </product-card>
         
         <script src='./product_card_component.js'></script>
