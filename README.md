@@ -21,8 +21,8 @@
 ### Event Listener:
     listen for "product-card-clicked" to respond to button on click.
 ### Example:
-
-    `<body>
+```javascript
+    <body>
     
         <product-card
             img='./img.jpg'
@@ -34,4 +34,5 @@
         </product-card>
         
         <script src='./product_card_component.js'></script>
-     </body>`
+     </body>
+```
