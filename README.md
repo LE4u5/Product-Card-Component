@@ -21,7 +21,7 @@
 ### Event Listener:
     listen for "product-card-clicked" to respond to button on click.
 ### Example:
-```javascript
+```html
     <body>
     
         <product-card
