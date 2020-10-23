@@ -39,3 +39,4 @@
     <script src='./product_card_component.js'></script>
 </body>
 ```
+[Article Link](https://dev.to/le4u5/product-card-component-through-web-components-4n63)
